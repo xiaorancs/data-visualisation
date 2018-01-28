@@ -24,3 +24,8 @@
     交互式可视化作图
 ## plotnine作图语法[可选](Grammer of graphics with plotnine[optional])
     R ggplot2的python接口
+
+# 开发环境
+ubuntu 16.04
+python3.5
+jupyter notebook
