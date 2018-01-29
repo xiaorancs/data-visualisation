@@ -131,7 +131,7 @@ df_reviews['province'].value_counts().head(10).plot.bar()
 
 
 
-![png](assert/output_4_1.png)
+![png](assert/2/output_4_1.png)
 
 
 作图是为了更好的理解数据。这个图告诉我们什么呢？它说，California生产的wine比其他城市更多。这还不够鲜明，我们更好的是显示比例的图例。
@@ -150,7 +150,7 @@ df_reviews['province'].value_counts().head(10).plot.bar()
 
 
 
-![png](assert/output_6_1.png)
+![png](assert/2/output_6_1.png)
 
 
 在wine杂志上的wine，California生产的wine占1/3.
@@ -173,7 +173,7 @@ df_reviews['points'].value_counts().sort_index().plot.bar()
 
 
 
-![png](assert/output_8_1.png)
+![png](assert/2/output_8_1.png)
 
 
 正如你看到的那样，所有的分数集中在80-100之间，而且我们如果相信wine杂志是一个好的评论者，我们可以任务得分92的wine比得分91的wine更好。
@@ -195,7 +195,7 @@ df_reviews['points'].value_counts().sort_index().plot.line()
 
 
 
-![png](assert/output_11_1.png)
+![png](assert/2/output_11_1.png)
 
 
 A line chart(折线图)可以传递任何单独的值，它是具有许多单一的值和类别时的首选方案。
@@ -238,7 +238,7 @@ df_reviews['points'].value_counts().sort_index().plot.area()
 
 
 
-![png](assert/output_14_1.png)
+![png](assert/2/output_14_1.png)
 
 
 # 区间数据(Interval data)
@@ -260,7 +260,7 @@ df_reviews[df_reviews['price']<200]['price'].plot.hist()
 
 
 
-![png](assert/output_16_1.png)
+![png](assert/2/output_16_1.png)
 
 
 上面的柱状图中，我们可以看到它和条形图很相似。事实上，这就是条形图的一种，只是条形图表示的单一的值，柱状图表示的区间数据。长度都表示个数。
@@ -279,7 +279,7 @@ df_reviews['price'].plot.hist()
 
 
 
-![png](assert/output_18_1.png)
+![png](assert/2/output_18_1.png)
 
 
 对于上述这种问题，我们需要手动选择数据，之后进行显示，例如我们可以选择出价格price > 1500的之后，再进行显示。就行我们选择小于200的价格显示是一样的道理。我们的原则就是手动选择避免峰值。    
@@ -299,7 +299,7 @@ df_reviews['points'].plot.hist()
 
 
 
-![png](assert/output_20_1.png)
+![png](assert/2/output_20_1.png)
 
 
 # 练习: bar, line/area, or histgram
@@ -514,7 +514,7 @@ df_pokemon['type1'].value_counts().plot.bar()
 
 
 
-![png](assert/output_26_1.png)
+![png](assert/2/output_26_1.png)
 
 
 
@@ -548,7 +548,7 @@ df_pokemon['weight_kg'].plot.hist()
 
 
 
-![png](assert/output_28_1.png)
+![png](assert/2/output_28_1.png)
 
 
 到这里，你可能认为我们的教程应该要结束了，但是我们还有一个图例没有介绍，就是饼状图。    
@@ -564,7 +564,7 @@ plt.gca().set_aspect('equal')
 ```
 
 
-![png](assert/output_30_0.png)
+![png](assert/2/output_30_0.png)
 
 
 
@@ -575,7 +575,7 @@ plt.gca().set_aspect('equal')
 ```
 
 
-![png](assert/output_31_0.png)
+![png](assert/2/output_31_0.png)
 
 
 
